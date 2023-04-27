@@ -3,7 +3,8 @@
   "version": "0.0.4",
   "description": "component",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "publish": "npm publish"
   },
   "author": "Siarhei",
   "license": "ISC",
