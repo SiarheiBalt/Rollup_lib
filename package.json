@@ -1,10 +1,9 @@
 {
   "name": "@SiarheiBalt/editor-lib",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "component",
   "scripts": {
-    "rollup": "rollup -c",
-    "publish": "npm publish"
+    "rollup": "rollup -c"
   },
   "author": "Siarhei",
   "license": "ISC",
@@ -12,7 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/SiarheiBalt/Rollup_lib.git"
   },
-  "dependencies": {
+  "devDependencies": {
+    "rollup-plugin-dts": "^5.3.0",
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-typescript": "^11.1.0",
@@ -22,9 +22,6 @@
     "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"
-  },
-  "devDependencies": {
-    "rollup-plugin-dts": "^5.3.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
