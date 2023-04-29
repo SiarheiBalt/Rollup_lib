@@ -5,7 +5,7 @@ interface ButtonProps {
     label: string;
 }
 
-console.log(1)
+console.log(2)
 const Button = (props: ButtonProps) => {
     return <button>{props.label}</button>;
 };
